@@ -1,22 +1,25 @@
-import os
 import shutil
 from pathlib import Path
 
-repo_root = Path(__file__).parent.parent
+# Use the actual repo root (where this file lives)
+repo_root = Path(__file__).resolve().parent
 
-# Mapping of flattened file names to original paths
+# Skip lists to avoid moving control files
+skip_exact = {"rebuild_structure.py", "README.md"}
+skip_prefixes = {"autobuild_workflow__"}
+
+# Move flattened files like "docs__index.md" back to "docs/index.md"
 for flat_file in repo_root.glob("*__*"):
-    if flat_file.name in ["rebuild_structure.py", "README.md"]:
+    name = flat_file.name
+    if name in skip_exact or any(name.startswith(p) for p in skip_prefixes):
         continue
-    # Reverse the "__" back to "/"
-    original_path = Path(str(flat_file.name).replace("__", "/"))
-    dest_path = repo_root / original_path
-    dest_path.parent.mkdir(parents=True, exist_ok=True)
-    shutil.move(str(flat_file), str(dest_path))
+    dest = repo_root / Path(name.replace("__", "/"))
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.move(str(flat_file), str(dest))
 
-# Move rebuild script and workflow into .github/scripts for archival
+# Archive this script into .github/scripts for reference
 archive_dir = repo_root / ".github" / "scripts"
 archive_dir.mkdir(parents=True, exist_ok=True)
-shutil.move(str(repo_root / "rebuild_structure.py"), archive_dir / "rebuild_structure.py")
+shutil.move(str(repo_root / "rebuild_structure.py"), str(archive_dir / "rebuild_structure.py"))
 
 print("Folder structure restored successfully.")
