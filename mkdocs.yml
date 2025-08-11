@@ -1,0 +1,11 @@
+site_name: Training Business Playbook
+repo_url: https://github.com/your-org-or-user/your-repo
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Offer: offer.md
+  - Curriculum: curriculum.md
+  - Marketing: marketing.md
+  - Sales: sales.md
+  - Operations: ops.md

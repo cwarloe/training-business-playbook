@@ -1,0 +1,24 @@
+name: Restore Repo Structure
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Restore folder structure
+        run: python rebuild_structure.py
+      - name: Commit restored structure
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Restore original folder structure" || echo "No changes to commit"
+          git push
