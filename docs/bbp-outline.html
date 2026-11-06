@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BBP Outline - Training Business Playbook</title>
+  <style>
+    /* Theme: blue is the default. Switch with <body data-theme="green|orange|purple|gray"> */
+    :root {
+      --accent: #1f5f9e;        /* strong: act bars, outer border */
+      --accent-mid: #bcd4ec;    /* key idea cells */
+      --accent-soft: #dce9f6;   /* section headers */
+      --accent-faint: #eef4fa;  /* explanation cells */
+      --accent-ink: #12365c;    /* text on tints */
+      --line: #8fb0d1;
+    }
+    body[data-theme="green"]  { --accent:#2e7d4f; --accent-mid:#bfe0cc; --accent-soft:#dcefe3; --accent-faint:#eff7f2; --accent-ink:#17482c; --line:#93c1a5; }
+    body[data-theme="orange"] { --accent:#c25e12; --accent-mid:#f5d2b0; --accent-soft:#fbe6d2; --accent-faint:#fdf3ea; --accent-ink:#6b3207; --line:#e0b48a; }
+    body[data-theme="purple"] { --accent:#6b46a8; --accent-mid:#d9cbee; --accent-soft:#e8dff6; --accent-faint:#f5f0fb; --accent-ink:#3a2266; --line:#b9a4dc; }
+    body[data-theme="gray"]   { --accent:#4a4f57; --accent-mid:#d0d3d8; --accent-soft:#e4e6e9; --accent-faint:#f3f4f5; --accent-ink:#23262b; --line:#a5a9b0; }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: white;
+      color: #1b1b1b;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    h1, h2 { color: var(--accent-ink); }
+
+    .bbp-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid var(--accent);
+      margin-bottom: 20px;
+      table-layout: fixed;
+    }
+
+    .bbp-table td {
+      border: 1px solid var(--line);
+      padding: 12px;
+      vertical-align: top;
+      font-size: 11pt;
+    }
+
+    .section-header {
+      background-color: var(--accent-soft);
+      color: var(--accent-ink);
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .act-header {
+      background-color: var(--accent);
+      color: #fff;
+      font-weight: bold;
+      font-size: 12pt;
+      text-align: center;
+    }
+
+    .key-idea-cell {
+      background-color: var(--accent-mid);
+      color: var(--accent-ink);
+      font-weight: bold;
+      vertical-align: middle;
+    }
+
+    .explanation-cell {
+      background-color: var(--accent-faint);
+      vertical-align: middle;
+    }
+
+    .transition-cell {
+      background-color: #fff;
+    }
+
+    .footer-text {
+      font-size: 10pt;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .label {
+      display: block;
+      font-size: 9pt;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body data-theme="blue">
+  <h1>Beyond Bullet Points Outline</h1>
+  <h2>Training Business Playbook</h2>
+  <h3>Audience: the owner and collaborators building the training business</h3>
+
+  <table class="bbp-table">
+    <colgroup>
+      <col style="width: 30%">
+      <col style="width: 30%">
+      <col style="width: 40%">
+    </colgroup>
+
+    <tr><td colspan="3" class="section-header">TITLE</td></tr>
+    <tr>
+      <td colspan="3"><strong>A 12-Month Path to a $1,000-per-Seat Workshop</strong><br>A planning repo for the strategy, curriculum, and operations of a premium training workshop.</td>
+    </tr>
+
+    <tr><td colspan="3" class="act-header">ACT 1: SETUP</td></tr>
+    <tr>
+      <td class="section-header">Setting</td>
+      <td class="section-header" colspan="2">Role</td>
+    </tr>
+    <tr>
+      <td>You're building a training business around a high-value workshop.</td>
+      <td colspan="2">You're the owner who has to turn an idea into a niche, an offer, and a launch.</td>
+    </tr>
+    <tr>
+      <td class="section-header">Point A (Where am I?)</td>
+      <td class="section-header">Call to Action (How do I get from A to B?)</td>
+      <td class="section-header">Point B (Where do I want to be?)</td>
+    </tr>
+    <tr>
+      <td>The plan exists in pieces, and most of the supporting pages are still placeholders.</td>
+      <td>Work the month-1 issues and fill in the offer and curriculum pages.</td>
+      <td>A launch-ready business with a premium workshop.</td>
+    </tr>
+
+    <tr><td colspan="3" class="transition-cell"><span class="label">Transition 1</span>The repo holds the plan and the site that will carry it. Three ideas explain it: the goal and plan, the phases, and the site.</td></tr>
+
+    <tr><td colspan="3" class="act-header">ACT 2: DEVELOP THE ACTION</td></tr>
+    <tr>
+      <td class="section-header">Key Idea (5 minutes)</td>
+      <td class="section-header">Explanation (15 minutes)</td>
+      <td class="section-header">Details (45 minutes)</td>
+    </tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 1</span>The Playbook Tracks the Path to a Premium Workshop</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>The Goal:</strong> what the repo is for</td><td>Reach a $1,000-per-seat workshop</td>
+    </tr>
+    <tr>
+      <td>Cover strategy, curriculum, operations</td>
+    </tr>
+    <tr>
+      <td>One place to plan it all</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>The 12-Month Plan:</strong> month by month</td><td>Spreadsheet of monthly goals</td>
+    </tr>
+    <tr>
+      <td>Focus, actions, and deliverables</td>
+    </tr>
+    <tr>
+      <td>Kept with the repo</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Milestone Tracking:</strong> work becomes issues</td><td>GitHub Issues by month</td>
+    </tr>
+    <tr>
+      <td>Seed list of starter tasks</td>
+    </tr>
+    <tr>
+      <td>Labels for research, content, marketing</td>
+    </tr>
+
+    <tr><td colspan="3" class="transition-cell"><span class="label">Transition 2</span>The playbook tracks the path to a premium workshop, which gives the plan a goal. Next, let's walk through the phases from niche to launch.</td></tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 2</span>The Plan Moves from Niche to Launch</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>Foundation (Months 1-3):</strong> decide what and for whom</td><td>Define the high-value niche</td>
+    </tr>
+    <tr>
+      <td>Positioning and offer concept</td>
+    </tr>
+    <tr>
+      <td>Start content authority</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>Build and Test (Months 4-6):</strong> make it real</td><td>Curriculum build-out</td>
+    </tr>
+    <tr>
+      <td>Pilot and feedback</td>
+    </tr>
+    <tr>
+      <td>Pre-sales marketing</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Launch and Scale (Months 7-12):</strong> bring it to market</td><td>Authority and sales automation</td>
+    </tr>
+    <tr>
+      <td>Soft launch and premium upgrade</td>
+    </tr>
+    <tr>
+      <td>Full launch, then scale and refine</td>
+    </tr>
+
+    <tr><td colspan="3" class="transition-cell"><span class="label">Transition 3</span>The phases show what happens and when. To keep all of it organized and readable, let's look at the documentation site.</td></tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 3</span>A Documentation Site Keeps It Organized</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>Core Pages:</strong> the heart of the plan</td><td>Home with a roadmap pointer</td>
+    </tr>
+    <tr>
+      <td>Offer and positioning</td>
+    </tr>
+    <tr>
+      <td>Curriculum</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>Supporting Pages:</strong> the rest of the business</td><td>Marketing and sales</td>
+    </tr>
+    <tr>
+      <td>Operations</td>
+    </tr>
+    <tr>
+      <td>Most still placeholders</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Publishing:</strong> automated delivery</td><td>MkDocs with the Material theme</td>
+    </tr>
+    <tr>
+      <td>Pages deploy on each push to main</td>
+    </tr>
+    <tr>
+      <td>Auto-build restores the folder structure</td>
+    </tr>
+
+    <tr><td colspan="3" class="act-header">ACT 3: RESOLUTION</td></tr>
+    <tr>
+      <td class="section-header">Challenge (Recap)</td>
+      <td class="section-header">Action</td>
+      <td class="section-header">Outcome</td>
+    </tr>
+    <tr>
+      <td><strong>How do I turn this plan into a workshop?</strong><br><br>• Which niche and offer first?<br>• What proof comes before the pilot?<br>• What do the placeholder pages need?</td>
+      <td><strong>Next steps:</strong><br><br>• Work the month-1 issues<br>• Fill in the offer and curriculum pages<br>• Review progress against the 12-month plan</td>
+      <td><strong>A launch-ready business:</strong><br><br>• A defined niche and offer<br>• A tested curriculum<br>• A sales path for premium seats</td>
+    </tr>
+
+    <tr><td colspan="3" class="section-header">CLOSING LINE</td></tr>
+    <tr><td colspan="3">One plan, twelve months, one workshop worth its price.</td></tr>
+
+    <tr>
+      <td colspan="3" class="footer-text">
+        Based on the Beyond Bullet Points story template by Cliff Atkinson<br>
+        Training Business Playbook
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
