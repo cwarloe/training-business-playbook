@@ -1,5 +1,7 @@
 > Imported from Google Drive on 2026-11-09. Source: [Education Factory Business Model Review](https://docs.google.com/document/d/1WTmBBrOShPsfyVDDwd-R7NKGhVOrzGFFWIVct3CIp5U/edit).
 > Review of a third-party AI course-site business model (Buildy / JobCrusher / Crusher Productions). Not an endorsement.
+>
+> **Editor's corrections (2026-11-10):** Sources 1 and 5 were private Gmail message links. Those URLs have been removed and replaced with a neutral description so this public repository does not publish mailbox identifiers. Trust-metric counts were rechecked on 2026-11-10 (America/Boise). Buildy.ai is still 4.1 on Trustpilot, but the review count is 14, not 15. JobCrusher.com is dated to this recheck (2.3 / 5.0 from 6 reviews). The 2026-10-12 Drive review had listed 2.8 / 5.0 from 7 reviews. BBB accreditation (not accredited) and the 5-complaint count were left as they were, because that part of the table still holds.
 
 # Comprehensive Evaluation of The Education Factory Platform: Revenue Mechanisms, User Utility, and Operational Realities
 # Overview of The Education Factory and Buildy Ecosystem
@@ -81,11 +83,13 @@ The setup process follows a streamlined workflow:
 To get an accurate picture of platform reliability, it is necessary to examine public feedback, star ratings, and formal complaints regarding Buildy.ai, JobCrusher.com, and parent company Crusher Productions LLC [[2, 3, 6]](#sources).
 
 ## Summary of Public Trust Metrics
+Figures in the 2026-10-12 Drive review are shown below, with a 2026-11-10 (America/Boise) recheck noted in the rating and review cells where the live figures changed.
+
 | Business Entity | Rating / Score | Total Reviews | Key Strengths Reported | Key Criticisms Reported |
 | :---- | :---- | :---- | :---- | :---- |
-| **Buildy.ai** | **4.1 out of 5.0** (Great) [[3]](#sources) | 15 Reviews [[3]](#sources) | Fast setup, easy plain-English building, no coding needed, strong initial templates [[3, 4]](#sources). | Technical bugs, automated software overwrites, slow human customer support response [[3, 4]](#sources). |
-| **JobCrusher.com** | **2.8 out of 5.0** (Average) [[6]](#sources) | 7 Reviews [[6]](#sources) | Step-by-step training materials, beginner-friendly video tutorials [[2, 3, 6]](#sources). | Strict refund policies, unmet earnings expectations, additional product offers [[2]](#sources). |
-| **Crusher Productions LLC** | **Not Accredited** [[2]](#sources) | 5 Complaints (BBB) [[2]](#sources) | Responsive in answering formal consumer inquiries [[2]](#sources). | Conditional refund terms requiring proof of full program use and failure to make money [[2]](#sources). |
+| **Buildy.ai** | **4.1 out of 5.0** (Great), still 4.1 as of 2026-11-10 [[3]](#sources) | 14 reviews as of 2026-11-10 (America/Boise). The 2026-10-12 source listed 15. [[3]](#sources) | Fast setup, easy plain-English building, no coding needed, strong initial templates [[3, 4]](#sources). | Technical bugs, automated software overwrites, slow human customer support response [[3, 4]](#sources). |
+| **JobCrusher.com** | **2.3 out of 5.0** as of 2026-11-10 (America/Boise). The 2026-10-12 source listed 2.8 / 5.0 (Average). [[6]](#sources) | 6 reviews as of 2026-11-10. The 2026-10-12 source listed 7. [[6]](#sources) | Step-by-step training materials, beginner-friendly video tutorials [[2, 3, 6]](#sources). | Strict refund policies, unmet earnings expectations, additional product offers [[2]](#sources). |
+| **Crusher Productions LLC** | **Not Accredited**, still the case as of the 2026-11-09 recheck [[2]](#sources) | 5 Complaints (BBB), still the case as of the 2026-11-09 recheck [[2]](#sources) | Responsive in answering formal consumer inquiries [[2]](#sources). | Conditional refund terms requiring proof of full program use and failure to make money [[2]](#sources). |
 
 ## Positive User Experiences
 Positive reviews for Buildy.ai emphasize speed and convenience [[4, 7]](#sources). Users report taking vague ideas and turning them into working web applications or complete online storefronts in a matter of hours or days [[3, 4, 7]](#sources). Reviewers frequently praise founder Bill McIntosh and the setup community for providing step-by-step guidance, live workshops, and functional baseline templates that eliminate technical confusion [[3, 4]](#sources).
@@ -115,10 +119,10 @@ For anyone considering enrolling in this program or launching a similar platform
 
 # Sources
 
-1. [Factory #4: A learning site that pays you monthly](https://mail.google.com/mail/?extsrc=sync&client=h&plid=ACUX6DM6HyVpGpA1ffecFwetSdv_WiByI8i8YBY&mid=19ebc30ead7f9550)  
+1. Factory #4: A learning site that pays you monthly *(private promotional email, not public. Pricing and product claims in the body are from that message as of 2026-10-12 and should be re-checked on the live offer page.)*  
 2. [Crusher Productions LLC | BBB Complaints | Better Business Bureau](https://www.bbb.org/us/nv/las-vegas/profile/internet-marketing-services/crusher-productions-llc-1086-90012632/complaints)  
 3. [Read Customer Service Reviews of buildy.ai - Trustpilot](https://www.trustpilot.com/review/buildy.ai)  
 4. [Buildy AI Review 2026: Is It Any Good? - AI Funnel Insider](https://aifunnelinsider.com/buildy-ai-review-2026/)  
-5. [The Advice You Give Other People Is the Advice You Need to Hear](https://mail.google.com/mail/?extsrc=sync&client=h&plid=ACUX6DPw3VPXPKEtRuscmn2Xc3NTThKT5u9_JoI&mid=19e3e6c929e26032)  
+5. "The Advice You Give Other People Is the Advice You Need to Hear" *(private email, not public, and not used as a product-rating source.)*  
 6. [Read Customer Service Reviews of jobcrusher.com - Trustpilot](https://www.trustpilot.com/review/jobcrusher.com)  
 7. [Buildy.ai Recognized as Best AI Website Builder - StreetInsider](https://www.streetinsider.com/dr/news.php?id=26296913)
