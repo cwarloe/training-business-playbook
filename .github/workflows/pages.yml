@@ -1,8 +1,15 @@
 name: Deploy Docs
 
+# Builds the MkDocs site on every push and PR so broken docs show up.
+# Deploying to GitHub Pages only runs when started by hand (Actions > Deploy Docs > Run workflow),
+# because Pages is not enabled for this repo yet. Once Pages is enabled with source "GitHub Actions",
+# add `push` back to the deploy job's condition if automatic deploys are wanted.
+
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,7 +26,9 @@ jobs:
           python-version: '3.x'
       - run: pip install mkdocs mkdocs-material
       - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
+      - if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'site'
-      - uses: actions/deploy-pages@v4
+      - if: github.event_name == 'workflow_dispatch'
+        uses: actions/deploy-pages@v4
